@@ -32,4 +32,4 @@ try:
         
 # cierre del controlador de errores con mensaje si el usuario intenta ingresar datos que no sean numeros
 except ValueError:
-    print("Error, "+ " Solo se aceptan valor en numeros")
+    print("Error: Solo se aceptan valor en numeros")

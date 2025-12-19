@@ -18,7 +18,7 @@ try:
     ingresar_numero2 = float(input("Ingresar un segundo valor:"))
     ingresar_numero3 = float(input("Ingresar un tercer valor:"))
 
-    #condicionales para determinar si los datos ingresados son iguales o mayores 
+    #condicionales para determinar si los datos ingresados son iguales o mayores
     if ingresar_numero == ingresar_numero2 == ingresar_numero3:
         print("Todos los numeros Son iguales")
     elif ingresar_numero > ingresar_numero2 and ingresar_numero > ingresar_numero3:
@@ -29,8 +29,7 @@ try:
         print("El numero mayor es:", ingresar_numero3)
     else:
         print("hay mas de un numero mayor")
-        
-# cierre del controlador de errores con mensaje si el usuario intenta ingresar datos que no sean numeros
+        # cierre del controlador de errores con mensaje si el usuario intenta ingresar datos que no sean numeros
 except ValueError:
     print("Error: Solo se aceptan valor en numeros")
     
@@ -54,10 +53,10 @@ try:
         print(f"Total a pagar de entreda es {pagar_entreda}")
     elif edad >= 40:
         resultado =entreda * 0.005
-        pagar_entreda = 1000 - resultad
+        pagar_entreda = 1000 - resultado
         print("Puedes entrar pero con un descuento del 5%")
         print(f"Total a Pagar de entreda es {pagar_entreda}")
-    elif edad > 18:
+    elif edad >  18:
         print("Puedes pasar Felicidades")
     else:
         print("No puedes entrar no cumples con la edad Suficiente")
